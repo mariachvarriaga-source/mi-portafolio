@@ -1,0 +1,29 @@
+/* --- TASK 2: Header y Navegación con Flexbox --- */
+.main-header {
+    display: flex;               /* Convierte el header en contenedor flexible */
+    justify-content: space-between; /* Distribuye elementos (título a un lado, nav al otro) */
+    align-items: center;         /* Centra verticalmente el contenido */
+    padding: 20px;
+    background-color: #f3f3f4f9;
+}
+
+.nav-links {
+    display: flex;
+    gap: 20px;                   /* Espacio uniforme entre los enlaces */
+}
+
+/* --- TASK 3: Sección de Proyectos con Grid Layout --- */
+.grid-container {
+    display: grid;               /* Define grid en el contenedor */
+    grid-template-columns: repeat(3, 1fr); /* Crea 3 columnas iguales */
+    gap: 20px;                   /* Agrega espacio entre las tarjetas */
+    padding: 20px 0;
+}
+
+.proyecto-card {
+    border: 1px solid #ddd;
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px;
+    background-color: #fff;
+}
